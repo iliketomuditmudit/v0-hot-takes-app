@@ -40,7 +40,7 @@ const supabase =
     ? createClient(process.env.NEXT_PUBLIC_SUPABASE_URL, process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!)
     : null
 
-const USE_DUMMY_DATA = false
+const USE_DUMMY_DATA = true
 
 export default function FeedbackPage({
   params,
